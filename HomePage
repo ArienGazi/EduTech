@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech Home Page</title>
+    <link rel="stylesheet" href="HomePage.Css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+     <!-- Navigation -->
+     <nav class="navbar">
+        <div class="nav-brand">
+            <h3 style="font-family: unset;">
+                <span class="edu">Edu</span><span class="tech">Tech</span>
+            </h3>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="course.html">Courses</a>
+            <a href="Upcomming Live class.html">Live Classes</a>
+            <a href="Test Series.html">Test Series</a>
+            <a href="Practice.html">Practice</a>
+        </div>
+        <div class="nav-actions">
+            <button class="search-btn"><i class="fas fa-search"></i> Search Here</button>
+            <a href="Login.html"><button class="login-btn">Login</button></a>
+            <a href="signup.html"><button class="signup-btn">Get Started</button></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Crack your goal with<br>India’s top educators</h1>
+            <p>Join millions of students in their learning journey</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10M+</span>
+                    <span class="stat-text">Active Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-text">Top Educators</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-text">Video Lessons</span>
+                </div>
+            </div>
+            <form onsubmit="return data()">
+                <div class="input-container">
+                    <div class="country-code">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg" alt="India flag">
+                        +91
+                    </div>
+                    <input type="text" placeholder="Enter your mobile number" id="n1">
+                </div>
+                <div class="verification-text">We'll send an OTP for verification</div>
+                <input type="submit" value="Join for free" class="sub">
+            </form>
+            <div class="hero-cta">
+                <a href="start.html"><button class="start-learning">Start Learning</button></a>
+                <a href="watch Demo.html"><button class="watch-demo"><i class="fas fa-play"></i> Watch Demo</button></a>
+            </div>
+        </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://static.uacdn.net/production/_next/static/images/home-illustration.svg?q=75&auto=format%2Ccompress&w=750" alt="Learning Illustration">
+        </div>
+    </section>
+
+    <!-- Popular Courses -->
+    <section class="courses">
+        <div class="section-header">
+            <h2>Popular Courses</h2>
+            <p>Choose from our wide range of courses</p>
+        </div>
+        <div class="course-grid">
+            <!-- Course Card 1 -->
+            <div class="course-card" data-aos="fade-up">
+                <div class="course-image">
+                    <img src="https://img-c.udemycdn.com/course/750x422/5758752_a5e8_5.jpg" alt="Course">
+                    <div class="course-tag">LIVE</div>
+                </div>
+                
+                
+                <div class="course-content">
+                    <h3>Complete C Programming</h3>
+                    <div class="course-info">
+                        <span> Pramod Kumar</span>
+                        <span>25 hours</span>
+                    </div>
+                    <div class="course-rating">
+                        <span>(4.8 stars)</span>
+                    </div>
+                    <a href="C-Homepage1.html"><button class="enroll-btn">Enroll Now</button></a>
+                </div>
+            </div>
+
+            <div class="course-card" data-aos="fade-up">
+                <div class="course-image">
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/c-programming-illustration-download-in-svg-png-gif-file-formats--html-logo-web-developer-development-programmers-pack-website-illustrations-3638120.png" alt="Course">
+                    <div class="course-tag">LIVE</div>
+                </div>
+                
+                    
+                <div class="course-content">
+                    <h3>Complete C++ Programming</h3>
+                    
+                    <div class="course-info">
+                        <span>Payal</span>
+                        <span> 30 hours</span>
+                    </div>
+                    <div class="course-rating">
+
+                        <span>(4.8)</span>
+                    </div>
+                    <a href="C++-Homepage1.HTML"><button class="enroll-btn">Enroll Now</button></a>
+                </div>
+            </div>
+
+            <div class="course-card" data-aos="fade-up">
+                <div class="course-image">
+                    <img src="https://img.freepik.com/premium-vector/vector-illustration-about-concept-web-development-programming-language_675567-5363.jpg" alt="Course">
+                    <div class="course-tag">LIVE</div>
+                </div>
+                
+                
+                <div class="course-content">
+                    <h3>Complete Python Programming</h3>
+                    <div class="course-info">
+                        <span>  Arien </span>
+                        <span>48 hours</span>
+                    </div>
+                    <div class="course-rating">
+
+                        <span>(4.8)</span>
+                    </div>
+                    <a href="PythonPage..html"><button class="enroll-btn">Enroll Now</button></a>
+                </div>
+            </div>
+            
+            <!-- Add more course cards here -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-header">
+            <h2>Why Choose Us</h2>
+            <p>Choose from our wide range of Teaching</p>
+        </div>
+        
+        </section>
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Expert Teachers</h3>
+            <p>Learn from industry experts and experienced educators</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-video"></i>
+            <h3>Live Classes</h3>
+            <p>Interactive live sessions with real-time doubt solving</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-book-reader"></i>
+            <h3>Study Material</h3>
+            <p>Access comprehensive notes and practice questions</p>
+        </div>
+    </section>
+
+    <!-- Live Classes Section -->
+    <section class="live-classes">
+        <div class="section-header">
+            <h2>Upcoming Live Classes</h2>
+            <p>Don't miss out on these interactive sessions</p>
+        </div>
+        <div class="live-grid">
+            <!-- Live Class Card -->
+            <div class="live-card">
+                <div class="live-badge">LIVE NOW</div>
+                <div class="live-content">
+                    <h3>Advanced JavaScript Concepts</h3>
+                    <p>By Sarah Johnson</p>
+                    <div class="live-meta">
+                        <span><i class="fas fa-users"></i> 1.2K watching</span>
+                        <span><i class="fas fa-clock"></i> 2 hours</span>
+                    </div>
+                    <a href="Upcomming Live class.html"><button class="join-btn">Join Now</button></a>
+                </div>
+            </div>
+            <div class="live-card">
+                <div class="live-badge">LIVE NOW</div>
+                <div class="live-content">
+                    <h3>Advanced WebDevelopment Concepts</h3>
+                    <p>By Petter Parkar</p>
+                    <div class="live-meta">
+                        <span><i class="fas fa-users"></i> 2.4K watching</span>
+                        <span><i class="fas fa-clock"></i> 2.30 hours</span>
+                    </div>
+                  <a href="Upcomming Live class.html">  <button class="join-btn">Join Now</button></a>
+                </div>
+            </div>
+            <div class="live-card">
+                <div class="live-badge">LIVE NOW</div>
+                <div class="live-content">
+                    <h3>Advanced Software Engeneering Concepts</h3>
+                    <p>By Harry Potter</p>
+                    <div class="live-meta">
+                        <span><i class="fas fa-users"></i> 16.4K watching</span>
+                        <span><i class="fas fa-clock"></i> 6 hours</span>
+                    </div>
+                    <a href="Upcomming Live class.html"><button class="join-btn">Join Now</button></a>
+                </div>
+            </div>
+            <!-- Add more live class cards -->
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>Student Success Stories</h2>
+            <p>Hear from our successful students</p>
+        </div>
+        <div class="testimonial-slider">
+            <!-- Testimonial Card -->
+            <div class="testimonial-card">
+                <img src="https://img.freepik.com/free-photo/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-with-straight-blonde-hair-expresses-positiveness-poses_176420-13176.jpg" alt="Student">
+                <p>"EduTech helped me achieve my dream score in competitive exams."</p>
+                <h4>Priya Sharma</h4>
+                <span>IIT-JEE Advanced, AIR 235</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://media.istockphoto.com/id/597958694/photo/young-adult-male-student-in-the-lobby-of-a-university.jpg?s=612x612&w=0&k=20&c=QaNEzmcKrLJzmwOcu2lgwm1B7rm3Ouq2McYYdmoMGpU=" alt="Student">
+                <p>"EduTech helped me achieve my dream score in competitive exams."</p>
+                <h4>Rahul Khan</h4>
+                <span>IIT-JEE Advanced, AIR 541</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://www.shutterstock.com/image-photo/head-shot-portrait-african-american-260nw-2006035757.jpg" alt="Student">
+                <p>"EduTech helped me achieve my dream score in competitive exams."</p>
+                <h4>Mehek Sundriyal</h4>
+                <span>IIT-JEE Advanced, AIR 415</span>
+            </div>
+            <!-- Add more testimonial cards -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About EduTech</h3>
+                <p>Empowering students with quality education and practical skills.</p>
+                <h3>By Arien & Deepak</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/18oHHCaD4p/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/ArienGazi96411?t=DAp5U_yMEwaBXpebc827gA&s=09"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/arien__gazi?igsh=MnZsYWdobHQycTc="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/arien-gazi-2ab67630a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="About-Us.html">About Us</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="About-Us.html">Teachers</a></li>
+                    <li><a href="About-Us.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 7982645424</p>
+                <p><i class="fas fa-envelope"></i> info@edutech.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EduTech. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
